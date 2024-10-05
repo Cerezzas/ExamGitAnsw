@@ -1,0 +1,72 @@
+1-c
+2-b
+3-c
+4-a
+5-b
+6-c
+7-c
+8-b
+9-b
+10-c
+11-c
+12-a
+13-b
+14-b
+15-a
+16-a
+17-b
+18-a
+19-
+20-a
+21-a
+22-b
+23-b
+24-a
+25-b
+26-a
+27-b
+28-b
+29-b
+30-c
+31-a
+32-b
+33-a
+34-b
+35-b
+36-c
+37-d
+38-a
+39-c
+40-a
+
+$ git clone git@github.com:Cerezzas/Calculator.git
+$ cd C:/Users/user/Desktop/calc/Calculator
+$ git branch -M main
+$ git checkout -b feature-multiplication
+Elave etdim locala 
+$ git add .
+$ git commit -m "1"
+$ git push --set-upstream origin feature-multiplication
+$ git checkout main
+$ git checkout -b feature-division
+$  git push --set-upstream origin feature-division
+Elave etdim locala 
+Git add .
+$ git commit -m "commit Division.txt"
+$ git push
+$ git pull
+$ git checkout main
+$ git merge feature-division
+$ git merge feature- multiplication
+$ git push
+$ git branch -d feature-division
+$ git branch -d feature-multiplication
+$ git branch
+* main
+
+
+
+
+
+
+
